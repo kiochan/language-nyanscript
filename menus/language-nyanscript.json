@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle language-nyanscript",
+        "command": "language-nyanscript:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "language-nyanscript",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "language-nyanscript:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
